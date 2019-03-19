@@ -1,6 +1,5 @@
 package me.geek.tom.infstore;
 
-import net.minecraftforge.fml.SidedProvider;
 import net.minecraftforge.fml.common.Mod;
 
 @Mod(Reference.MODID)

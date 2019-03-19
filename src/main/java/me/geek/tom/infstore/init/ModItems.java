@@ -6,8 +6,9 @@ import net.minecraftforge.event.RegistryEvent;
 
 public class ModItems {
     public void register(RegistryEvent.Register<Item> event) {
-        event.getRegistry().register(
-                new Item(new Item.Properties()).setRegistryName(Reference.MODID, "circuit")
+        event.getRegistry().registerAll(
+                new Item(new Item.Properties()).setRegistryName(Reference.MODID, "circuit"),
+                new Item(new Item.Properties()).setRegistryName(Reference.MODID, "cable")
         );
     }
 }
