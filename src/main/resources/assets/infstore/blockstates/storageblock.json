@@ -1,8 +1,8 @@
 {
   "variants": {
-    "facing=north": { "model": "infstore/block/storageblock" },
-    "facing=south": { "model": "infstore/block/storageblock", "y": 180 },
-    "facing=west":  { "model": "infstore/block/storageblock", "y": 270 },
-    "facing=east":  { "model": "infstore/block/storageblock", "y": 90 }
+    "facing=north": { "model": "infstore:block/storageblock" },
+    "facing=south": { "model": "infstore:block/storageblock", "y": 180 },
+    "facing=west":  { "model": "infstore:block/storageblock", "y": 270 },
+    "facing=east":  { "model": "infstore:block/storageblock", "y": 90 }
   }
 }

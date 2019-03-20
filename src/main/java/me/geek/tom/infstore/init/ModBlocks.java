@@ -15,7 +15,7 @@ public class ModBlocks {
 
     public void register(RegistryEvent.Register<Block> event) {
         if (storageblock == null) {
-            storageblock = new BlockStorage(Block.Properties.create(Material.IRON, MaterialColor.PURPLE)).setRegistryName("storageblock");
+            storageblock = new BlockStorage(Block.Properties.create(Material.IRON, MaterialColor.PURPLE), "storageblock");
         }
         event.getRegistry().registerAll(
                 storageblock
@@ -24,7 +24,7 @@ public class ModBlocks {
 
     public void registerItemBlocks(RegistryEvent.Register<Item> event) {
         if (storageblock == null) {
-            storageblock = new BlockStorage(Block.Properties.create(Material.IRON, MaterialColor.PURPLE)).setRegistryName("storageblock");
+            storageblock = new BlockStorage(Block.Properties.create(Material.IRON, MaterialColor.PURPLE), "storageblock");
         }
         event.getRegistry().registerAll(
                 new ItemBlock(storageblock, new Item.Properties()).setRegistryName("storageblock")
